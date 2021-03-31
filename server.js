@@ -30,7 +30,4 @@ io.on("connection", (socket) => {
   });
 });
 
-app.listen(process.env.PORT || 5000, function () {
-  var port = server.address().port;
-  console.log("Express is working on port " + port);
-});
+server.listen(process.env.PORT || 3030);
